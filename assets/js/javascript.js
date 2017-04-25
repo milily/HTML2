@@ -233,7 +233,7 @@ var arreglo=[
 
 
 arreglo.forEach(function(element){ 
-  document.write("<div><b> Usuario # " + element.id + "<br>" + "<b> Nombre: </b>" + element.name + "<br>"+
+  document.write("<div><b> Usuario " + element.id + "<br>" + "<b> Nombre: </b>" + element.name + "<br>"+
                   "<b> Dirección: </b>" + element.address.street + "<br>"+
                   "<b> Suite: </b>" + element.address.suite + "<br>"+
                   "<b> Ciudad: </b>" + element.address.city + "<br>"+
